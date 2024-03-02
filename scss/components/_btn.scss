@@ -1,0 +1,25 @@
+.btn {
+
+    
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: $btnBG;
+    border-radius: $borderRadius;
+    padding: 23px 46px;
+    
+    color: rgb(255, 255, 255);
+    font-family: $ff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .2s all ease-in;
+    
+    &:hover{
+        background: darken( $btnBG, 20%);
+    }
+    
+    
+    
+        }
+        

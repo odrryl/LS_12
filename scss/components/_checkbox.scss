@@ -1,0 +1,42 @@
+.checkbox {
+
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    cursor: pointer;
+
+    &__input {
+
+        display: none;
+
+        &:checked ~ .checkbox__box{
+
+            background: rgb(3, 1, 76);
+            color: rgba(255, 255, 255, 1);
+
+
+        }
+    }
+    &__box {
+
+        width: 14px;
+        height: 14px;
+        border: 1px solid rgba(3, 1, 76, 0.6);
+        border-radius: 50%;
+        color: rgba(255, 255, 255, 0);
+        display: flex;
+        transition: .2s all ease-in;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+       
+    }
+    &__label {
+
+        color: rgba(3, 1, 76, 0.6);
+font-family: $ff;
+font-size: 13px;
+font-weight: 600;
+
+    }
+}
